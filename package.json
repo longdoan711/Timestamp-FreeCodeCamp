@@ -1,0 +1,8 @@
+{
+	"name": "timestamp-microservice",
+	"description": "Freecodecamp project",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	}
+}

@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
+var port = process.env.PORT || 8080;
 
 function getNaturalTime(time) {
 	var date = time.getDate();
@@ -87,5 +88,4 @@ var server = http.createServer(function(req, res) {
 		}
 	}
 })
-server.listen(3000);
-console.log('Listen on port 3000')
+server.listen(port);
